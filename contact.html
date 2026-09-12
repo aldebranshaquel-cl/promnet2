@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="home.html">Home</a> | <a href="about.html">About</a> |
+      <a href="project.html">Project</a> | <a href="contact.html">Contact</a>
+    </nav>
+    <hr />
+    <h2>Informasi Kontak</h2>
+    <p>
+      Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya melalui
+      form berikut. <br />Anda juga dapat mengirim email ke
+      <a href="mailto:aldebranshaquel@gmail.com">aldebranshaquel@gmail.com</a>
+    </p>
+    <h2>Form Pesan</h2>
+    <form>
+      <table border="1" cellspacing="0" cellpadding="10" width="750">
+        <tr>
+          <th colspan="2">Form Data Kontak</th>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Nama Lengkap:</strong></td>
+          <td class="input"><input type="text" name="nama" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Email:</strong></td>
+          <td class="input"><input type="text" name="email" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Nomor Telepon:</strong></td>
+          <td class="input"><input type="number" name="telepon" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Jenis Kelamin:</strong></td>
+          <td class="input">
+            <input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki
+            <input type="radio" name="perempuan" value="Perempuan" /> Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Tanggal Lahir:</strong></td>
+          <td class="input"><input type="date" name="tanggal_lahir" /></td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Topik Pesan:</strong></td>
+          <td>
+            <select name="topik">
+              <option></option>
+              <option value="Diskusi">Diskusi</option>
+              <option value="Pertanyaan">Pertanyaan</option>
+              <option value="Informasi">Informasi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Jenis Pesan:</strong></td>
+          <td class="input">
+            <input type="radio" name="Pertanyaan" value="Pertanyaan" />
+            Pertanyaan <input type="radio" name="Saran" value="Saran" /> Saran
+            <input type="radio" name="Lainnya" value="Lainnya" /> Lainnya
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right" valign="top">
+            <strong>Pesan:</strong>
+          </td>
+          <td class="textarea">
+            <textarea name="Pesan" rows="7" cols="50"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="label" align="right"><strong>Salinan Pesan:</strong></td>
+          <td>
+            <input type="checkbox" name="salinan" value="pesan" />Kirim salinan
+            pesan ke email saya
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Kirim Pesan" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <p>
+      <em
+        >Catatan: Karena website ini hanya menggunakan HTML, form belum
+        terhubung ke server/database</em
+      >
+    </p>
+    <hr />
+    <a href="home.html">Kembali ke Home</a>
+    <p>©2026 Shaquel Pria Aldebran.</p>
+  </body>
+</html>
